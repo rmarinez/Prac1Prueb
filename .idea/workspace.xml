@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="727353cf-833a-4450-bf12-43e249c4fe49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Estudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Institut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProfessorSubstitut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +18,7 @@
   </component>
   <component name="ClassPatternConfiguration">
     <testPatterns>
-      <classPattern testedClass="$CLASS$" testClass="test/$CLASS$Test" />
+      <classPattern testedClass="$CLASS$" testClass="test/D:/Users/Super/IdeaProjects/untitled1/classTest" />
     </testPatterns>
   </component>
   <component name="CodeStyleSettingsInfer">
@@ -25,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pruebaPrac1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JUnitClassTemplateConfiguration">
     <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
@@ -66,7 +73,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="284VTLS6yULsrMBHkJYImPbYUu4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -108,6 +117,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="prueba1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1650903115239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650903115239" />
     <state x="544" y="42" key="CommitChangelistDialog2" timestamp="1650478072367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
