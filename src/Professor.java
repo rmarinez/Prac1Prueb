@@ -7,11 +7,15 @@ public class Professor extends Persona {
         return sou;
     }
 
+    public Professor(String nom){
+        this.setNom(nom);
+    }
+
     public void canviarSou(int sou){
         this.sou = sou;
     }
 
     public void obtenirDades(){
-        System.out.println("Profe amb nota sou: "+ getSou());
+        System.out.println("Profe amb sou: "+ getSou());
     }
 }

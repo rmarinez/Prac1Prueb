@@ -1,15 +1,16 @@
 public class Estudiant extends Persona {
 
     //atributo
-    private float nota;
+    private double nota;
 
     //metodo
 
-    public float getNota(){
+    public double getNota(){
         return nota;
     }
 
-    public void PosarNota(int nota){
+
+    public void posarNota(double nota){
         this.nota = nota;
     }
 

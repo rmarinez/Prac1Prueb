@@ -8,8 +8,11 @@ public class Persona {
     public String getNom(){
         return nom;
     }
+    public void setNom(String nom){
+        this.nom = nom;
+    }
 
-    public void canvairNom(String nom){
+    public void canviarNom(String nom){
         this.nom = nom;
     }
 
@@ -18,7 +21,7 @@ public class Persona {
     }
 
     public void assignarDni(String dni){
-        this.dni= dni;
+        this.dni = dni;
     }
 
     public void obtenirDades(){
