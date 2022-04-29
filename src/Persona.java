@@ -24,8 +24,8 @@ public class Persona {
         this.dni = dni;
     }
 
-    public void obtenirDades(){
-        System.out.println("Persona amb nom: "+getNom()+"i DNI: " + getDni());
+    public String obtenirDades(){
+        return "Persona amb nom:  "+getNom()+"i DNI: " + getDni();
     }
 
 

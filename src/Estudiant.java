@@ -14,7 +14,8 @@ public class Estudiant extends Persona {
         this.nota = nota;
     }
 
-    public void obtenirDades(){
-        System.out.println("ESTUDIANT amb nota: "+ getNota());
+    public String obtenirDades(){
+        return  "Persona amb nom:" + getNom() + "  i DNI: " + getDni () + " Estudiant amb nota: " +  getNota();
+
     }
 }

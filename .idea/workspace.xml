@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProfessorSubstitut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProfessorSubstitut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,20 @@
       <recent name="D:\Users\Super\IdeaProjects" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="prueba" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,10 +130,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="prueba1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1651080140237">
+    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1651238786727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651080140237" />
+    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651238786727" />
     <state x="544" y="42" key="CommitChangelistDialog2" timestamp="1651082873149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -127,6 +142,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="230" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650475932493" />
+    <state width="1862" height="267" key="GridCell.Tab.0.bottom" timestamp="1651242698210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1862" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651242698210" />
+    <state width="1862" height="267" key="GridCell.Tab.0.center" timestamp="1651242698210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1862" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651242698210" />
+    <state width="1862" height="267" key="GridCell.Tab.0.left" timestamp="1651242698210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1862" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651242698210" />
+    <state width="1862" height="267" key="GridCell.Tab.0.right" timestamp="1651242698210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1862" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651242698210" />
     <state x="351" y="76" key="SettingsEditor" timestamp="1650476903798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

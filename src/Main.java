@@ -1,16 +1,45 @@
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
 public class Main {
     public static void main(String[] args) throws Exception {
-        Institut ins = new Institut("La Guineueta");
-        Professor profe1 = new Professor("Marc");
-        profe1.assignarDni("1234");
-        ins.afegirProfe(profe1);
+//        Institut ins = new Institut("La Guineueta");
+//        Professor profe1 = new Professor("Marc");
+//        profe1.assignarDni("1234");
+//        ins.afegirProfe(profe1);
+//
+//        Estudiant estudiant1 = new Estudiant();
+//        estudiant1.canviarNom("Joan");
+//        estudiant1.assignarDni("6666");
+//        estudiant1.posarNota(7.5);
+//        ins.afegirEstudiant(estudiant1);
+//
+//        ins.imprimirInformacio();
 
-        Estudiant estudiant1 = new Estudiant();
-        estudiant1.canviarNom("Joan");
-        estudiant1.assignarDni("6666");
-        estudiant1.posarNota(7.5);
-        ins.afegirEstudiant(estudiant1);
+                Institut ins = new Institut("La Guineueta");
 
-        ins.imprimirInformacio();
-    }
-}
+                Professor profe1 = new Professor();
+                profe1.canviarNom("Marc");
+                profe1.assignarDni("1234");
+                ins.afegirProfe(profe1);
+
+                ProfessorSubstitut profe2 = new ProfessorSubstitut();
+                profe2.canviarNom("Laura");
+                profe2.assignarDni("8888");
+                SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+                Date dataInici = new Date(2021, 11, 1);
+                Date dataFi = new Date(2022, 6, 30);
+                profe2.assignarSubstitucio(dataInici, dataFi);
+                ins.afegirProfe(profe2);
+
+                Estudiant estudiant1 = new Estudiant();
+                estudiant1.canviarNom("Joan");
+                estudiant1.assignarDni("6666");
+                estudiant1.posarNota(7.5);
+                ins.afegirEstudiant(estudiant1);
+
+                ins.imprimirInformacio();
+            }
+        }
+
+

@@ -35,7 +35,15 @@ public class Institut {
         System.out.println(getNom()+". Llista de persones:");
 
         for (Persona professor : professors){
-            System.out.println(professor.obtenirDades()); //Error al estar de tipo void el obtenirDades();
+            System.out.println(professor.obtenirDades());
+        }
+
+        for (Persona estudiant : estudiants){
+            System.out.println(estudiant.obtenirDades());
+        }
+
+        for (Persona professorSubstitut : ProfessorsSubstituts){
+            System.out.println(professorSubstitut.obtenirDades());
         }
     }
 }
