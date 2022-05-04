@@ -22,8 +22,10 @@ public class Main {
                 profe1.canviarNom("Marc");
                 profe1.assignarDni("1234");
                 ins.afegirProfe(profe1);
+                profe1.assignarSou(20);
 
-                ProfessorSubstitut profe2 = new ProfessorSubstitut();
+
+        ProfessorSubstitut profe2 = new ProfessorSubstitut();
                 profe2.canviarNom("Laura");
                 profe2.assignarDni("8888");
                 SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
@@ -31,8 +33,10 @@ public class Main {
                 Date dataFi = new Date(2022, 6, 30);
                 profe2.assignarSubstitucio(dataInici, dataFi);
                 ins.afegirProfe(profe2);
+                profe2.assignarSou(200);
 
-                Estudiant estudiant1 = new Estudiant();
+
+        Estudiant estudiant1 = new Estudiant();
                 estudiant1.canviarNom("Joan");
                 estudiant1.assignarDni("6666");
                 estudiant1.posarNota(7.5);

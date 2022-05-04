@@ -11,8 +11,25 @@ public class Professor extends Persona {
         this.setNom(nom);
     }
 
+    public void setSou(int sou) {
+        this.sou = sou;
+    }
+
     public Professor(){
 
+    }
+
+    public void assignarSou(int sou){
+        try {
+            if (sou > 3000 || sou < 0){
+                System.out.println("Sueldo incorrecto");
+            }
+            else {
+                setSou(sou);
+            }
+        }catch (Exception e){
+            System.out.print(e.getMessage());
+        }
     }
 
     public void canviarSou(int sou){
