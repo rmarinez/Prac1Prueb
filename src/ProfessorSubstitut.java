@@ -24,7 +24,16 @@ public class ProfessorSubstitut extends Professor{
 
 
     public String obtenirDades(){
-        return "Persona amb nom: " + getNom() + " i DNI: " + getDni() + " (PROFE amb sou: " +  getSou() + ", del " + dataInici.getDate() + "/" + dataInici.getMonth() + "/" + dataInici.getYear()  + " al " + dataFi.getDate() + "/" + dataFi.getMonth() + "/" + dataFi.getYear()  +")\n";
+        try {
+            if (this.getDni() != null && this.getNom() != null){
+                return "Persona amb nom: " + getNom() + " i DNI: " + getDni() + " (PROFE amb sou: " +  getSou() + ", del " + dataInici.getDate() + "/" + dataInici.getMonth() + "/" + dataInici.getYear()  + " al " + dataFi.getDate() + "/" + dataFi.getMonth() + "/" + dataFi.getYear()  +")\n";
+            }
+            else{
+                return "dni o nombre son de tipo nulo";
+            }
+        }catch (Exception e){
+            return e.getMessage();
+        }
     }
 
 }

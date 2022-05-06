@@ -37,6 +37,17 @@ public class Professor extends Persona {
     }
 
     public String obtenirDades(){
-        return "Persona amb nom: " + getNom() + "  i DNI: " + getDni () + " PROFE amb sou: " +  getSou();
+        try {
+            if (this.getDni() != null && this.getNom() != null){
+                return "Persona amb nom: " + getNom() + "  i DNI: " + getDni () + " PROFE amb sou: " +  getSou();
+            }
+            else{
+                return "dni o nombre son de tipo nulo";
+            }
+        }catch (Exception e){
+            return e.getMessage();
+        }
+
+
     }
 }
