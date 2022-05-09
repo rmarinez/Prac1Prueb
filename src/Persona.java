@@ -29,7 +29,7 @@ public class Persona {
     public void assignarDni(String dni){
         try {
             if (this.getDni() != null){
-                System.out.println("Ya tiene un dni asignado");
+                throw new Exception("Ya tiene un dni asignado");
             }
             else{
                 setDni(dni);
@@ -46,7 +46,7 @@ public class Persona {
                 return "Persona amb nom:  "+getNom()+"i DNI: " + getDni();
             }
             else{
-                return "dni o nombre son de tipo nulo";
+                throw new Exception ("dni o nombre son de tipo nulo");
             }
         }catch (Exception e){
             return e.getMessage();

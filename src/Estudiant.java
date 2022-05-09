@@ -40,7 +40,7 @@ public class Estudiant extends Persona {
                 notas.add(nota);
             }
             else{
-                System.out.print("nota no valida");
+                throw new Exception("nota no valida");
             }
         }catch (Exception e){
             System.out.print(e.getMessage());
@@ -54,7 +54,7 @@ public class Estudiant extends Persona {
                 return  "Persona amb nom:" + getNom() + "  i DNI: " + getDni () + " Estudiant amb nota " + notas + " més baixa: " +  getNotaMinima() + " i nota més alta " + getNotaMaxima() + " la mitjana és de " + getMediana();
             }
             else{
-                return "dni o nombre son de tipo nulo";
+                throw new Exception("dni o nombre son de tipo nulo");
             }
         }catch (Exception e){
             return e.getMessage();

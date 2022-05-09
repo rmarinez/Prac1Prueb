@@ -22,7 +22,7 @@ public class Professor extends Persona {
     public void assignarSou(int sou){
         try {
             if (sou > 3000 || sou < 0){
-                System.out.println("Sueldo incorrecto");
+                throw new Exception("Sueldo incorrecto");
             }
             else {
                 setSou(sou);
@@ -42,7 +42,7 @@ public class Professor extends Persona {
                 return "Persona amb nom: " + getNom() + "  i DNI: " + getDni () + " PROFE amb sou: " +  getSou();
             }
             else{
-                return "dni o nombre son de tipo nulo";
+                throw new Exception("dni o nombre son de tipo nulo");
             }
         }catch (Exception e){
             return e.getMessage();
