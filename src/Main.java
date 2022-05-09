@@ -40,8 +40,11 @@ public class Main {
         Estudiant estudiant1 = new Estudiant();
                 estudiant1.canviarNom("Joan");
                 estudiant1.assignarDni("6666");
-                estudiant1.posarNota(12);
-                ins.afegirPersona(estudiant1);
+                estudiant1.posarNota(9);
+                estudiant1.posarNota(3);
+                estudiant1.posarNota(7);
+
+        ins.afegirPersona(estudiant1);
 
                 ins.imprimirInformacio();
 

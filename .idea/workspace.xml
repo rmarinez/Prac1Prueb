@@ -4,11 +4,7 @@
     <list default="true" id="727353cf-833a-4450-bf12-43e249c4fe49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Estudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Estudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Institut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Institut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProfessorSubstitut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProfessorSubstitut.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,46 +126,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="prueba1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="720" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1651844171216">
+    <state x="720" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1652104719685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="720" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1651844171216" />
-    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1651842963916">
+    <state x="720" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1652104719685" />
+    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1652104457737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651842963916" />
-    <state x="544" y="42" key="CommitChangelistDialog2" timestamp="1651848412285">
+    <state x="1137" y="699" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1652104457737" />
+    <state x="911" y="94" key="CommitChangelistDialog2" timestamp="1652105535472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="42" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1651848412285" />
+    <state x="911" y="94" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1652105535472" />
     <state x="704" y="230" key="FileChooserDialogImpl" timestamp="1650475932493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="230" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650475932493" />
-    <state width="1862" height="199" key="GridCell.Tab.0.bottom" timestamp="1651847876367">
+    <state width="1862" height="267" key="GridCell.Tab.0.bottom" timestamp="1652105535505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1862" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651847876367" />
-    <state width="1862" height="199" key="GridCell.Tab.0.center" timestamp="1651847876367">
+    <state width="1862" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1652105535505" />
+    <state width="1862" height="267" key="GridCell.Tab.0.center" timestamp="1652105535505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1862" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651847876367" />
-    <state width="1862" height="199" key="GridCell.Tab.0.left" timestamp="1651847876367">
+    <state width="1862" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1652105535505" />
+    <state width="1862" height="267" key="GridCell.Tab.0.left" timestamp="1652105535505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1862" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651847876367" />
-    <state width="1862" height="199" key="GridCell.Tab.0.right" timestamp="1651847876367">
+    <state width="1862" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1652105535505" />
+    <state width="1862" height="267" key="GridCell.Tab.0.right" timestamp="1652105535505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1862" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651847876367" />
+    <state width="1862" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1652105535505" />
     <state x="351" y="76" key="SettingsEditor" timestamp="1650476903798">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="351" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650476903798" />
-    <state x="451" y="187" key="Vcs.Push.Dialog.v2" timestamp="1650478093221">
+    <state x="451" y="187" key="Vcs.Push.Dialog.v2" timestamp="1652105544088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="451" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1650478093221" />
+    <state x="451" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1652105544088" />
     <state x="1159" y="416" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1651081949019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
