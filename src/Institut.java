@@ -2,9 +2,8 @@ import java.util.ArrayList;
 
 public class Institut {
 
-    ArrayList<Persona> estudiants = new ArrayList<>();
-    ArrayList<Persona> professors = new ArrayList<>();
-    ArrayList<Persona> ProfessorsSubstituts = new ArrayList<>();
+    ArrayList<Persona> personas = new ArrayList<>();
+
 
 
     //atributo
@@ -20,30 +19,17 @@ public class Institut {
         this.nom = nom;
     }
 
-    public void afegirProfe(Professor profe){
-        professors.add(profe);
+    public void afegirPersona(Persona persona){
+        personas.add(persona);
     }
-
-    public void afegirEstudiant(Estudiant estudiant){
-        estudiants.add(estudiant);
-    }
-
-
 
 
     public void imprimirInformacio(){
         System.out.println(getNom()+". Llista de persones:");
 
-        for (Persona professor : professors){
-            System.out.println(professor.obtenirDades());
+        for (Persona persona : personas){
+            System.out.println(persona.obtenirDades());
         }
 
-        for (Persona estudiant : estudiants){
-            System.out.println(estudiant.obtenirDades());
-        }
-
-        for (Persona professorSubstitut : ProfessorsSubstituts){
-            System.out.println(professorSubstitut.obtenirDades());
-        }
     }
 }
